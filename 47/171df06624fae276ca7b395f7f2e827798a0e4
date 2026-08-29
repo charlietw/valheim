@@ -1,0 +1,18 @@
+iam.tf
+  h_41307b71511e5e 1-28
+valheim-server.tf
+  h_41307b71511e5e 1-65
+data.tf
+  h_41307b71511e5e 1-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "47171df06624fae276ca7b395f7f2e827798a0e4",
+  "prompts": {},
+  "humans": {
+    "h_41307b71511e5e": {
+      "author": "Charlie Wren <charlie.wren@eckoh.com>"
+    }
+  }
+}
