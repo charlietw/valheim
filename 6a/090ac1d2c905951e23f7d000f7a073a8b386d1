@@ -1,0 +1,22 @@
+data.tf
+  h_d1f52fab061eb7 1-2,5-7,9,11-12,17
+  h_d1f52fab061eb7 3
+.gitignore
+  h_d1f52fab061eb7 1-4
+valheim-server.tf
+  h_d1f52fab061eb7 3-4,6,15-16,29,35,47-50,52-53,56-57,59-64
+  h_d1f52fab061eb7 7-8
+Makefile
+  h_d1f52fab061eb7 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "6a090ac1d2c905951e23f7d000f7a073a8b386d1",
+  "prompts": {},
+  "humans": {
+    "h_d1f52fab061eb7": {
+      "author": "Charlie Wren <23018417+charlietw@users.noreply.github.com>"
+    }
+  }
+}
