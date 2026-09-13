@@ -16,3 +16,7 @@ data "aws_subnets" "default" {
 data "aws_subnet" "default" {
   id = data.aws_subnets.default.ids[0]
 }
+
+data "aws_route53_zone" "selected" {
+  name         = "charlietw.co.uk."
+}
