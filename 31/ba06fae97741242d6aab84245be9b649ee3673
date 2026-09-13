@@ -1,0 +1,19 @@
+bot.tf
+  h_d1f52fab061eb7 1-28
+data.tf
+  h_d1f52fab061eb7 19-21
+  h_d1f52fab061eb7 18
+route53.tf
+  h_d1f52fab061eb7 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "31ba06fae97741242d6aab84245be9b649ee3673",
+  "prompts": {},
+  "humans": {
+    "h_d1f52fab061eb7": {
+      "author": "Charlie Wren <23018417+charlietw@users.noreply.github.com>"
+    }
+  }
+}
