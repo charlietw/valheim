@@ -19,6 +19,18 @@ resource "aws_instance" "valheim" {
   tags = {
     Name = "valheim"
   }
+
+  lifecycle {
+    replace_triggered_by = [
+      terraform_data.user_data
+    ]
+  }
+}
+
+resource "terraform_data" "user_data" {
+  triggers_replace = [
+    filemd5("${path.module}/user-data.sh")
+  ]
 }
 
 

@@ -1,4 +1,4 @@
-resource "aws_eip" "lb" {
+resource "aws_eip" "valheim" {
   instance = aws_instance.valheim.id
   domain   = "vpc"
 }
@@ -8,5 +8,10 @@ resource "aws_route53_record" "valheim" {
   name    = "valheim.${data.aws_route53_zone.selected.name}"
   type    = "A"
   ttl     = "300"
-  records = [aws_instance.valheim.public_ip]
+  records = [aws_eip.valheim.public_ip]
+}
+
+moved {
+  from = aws_eip.lb
+  to = aws_eip.valheim
 }

@@ -18,5 +18,5 @@ data "aws_subnet" "default" {
 }
 
 data "aws_route53_zone" "selected" {
-  name         = "charlietw.co.uk."
+  name = "charlietw.co.uk."
 }
