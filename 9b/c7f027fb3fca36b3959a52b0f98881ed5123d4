@@ -1,0 +1,20 @@
+route53.tf
+  h_d1f52fab061eb7 1,11-16
+provider.tf
+  h_d1f52fab061eb7 1-3
+valheim-server.tf
+  h_d1f52fab061eb7 22-33
+data.tf
+  h_d1f52fab061eb7 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9bc7f027fb3fca36b3959a52b0f98881ed5123d4",
+  "prompts": {},
+  "humans": {
+    "h_d1f52fab061eb7": {
+      "author": "Charlie Wren <23018417+charlietw@users.noreply.github.com>"
+    }
+  }
+}
